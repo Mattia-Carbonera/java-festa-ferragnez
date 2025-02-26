@@ -17,10 +17,10 @@ public class CheckGuest {
 
 
         // * controllo se l'ospite è nella lista
-        // int index = 0;
         boolean isGuest = false;
-
+        
         // ! con "while"
+        // int index = 0;
         // while (index < guessList.length) {
         //     guessList[index] = guessList[index].replaceAll(" " , "");
         //     if (guestName.equalsIgnoreCase(guessList[index])) {
