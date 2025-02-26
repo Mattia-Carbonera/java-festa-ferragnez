@@ -21,7 +21,7 @@ public class CheckGuest {
         
         // ! con "while"
         // int index = 0;
-        // while (index < guestsList.length) {
+        // while (index < guestsList.length || isGuest == false) {
         //     guestsList[index] = guestsList[index].replaceAll(" " , "");
         //     if (guestName.equalsIgnoreCase(guestsList[index])) {
         //         isGuest = true;
