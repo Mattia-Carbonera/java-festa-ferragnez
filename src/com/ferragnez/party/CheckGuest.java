@@ -33,7 +33,7 @@ public class CheckGuest {
         // ! con "for"
         for(int i = 0; i < guessList.length; i++) {
             guessList[i] = guessList[i].replaceAll(" " , "");
-            System.out.println(i);
+  
             if (guestName.equalsIgnoreCase(guessList[i])) {
                 isGuest = true;
                 break;
