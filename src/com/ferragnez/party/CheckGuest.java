@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CheckGuest {
 
     public static void main(String[] args) {
-        String[] guessList = {"Dua Lipa", "Paris Hilton", "Manuel Agnelli", "J-Ax", "Francesco Totti", "Ilary Blasi", "Bebe Vio", "Luis", "Pardis Zarei", "Martina Maccherone", "Rachel Zeilic"};
+        String[] guestsList = {"Dua Lipa", "Paris Hilton", "Manuel Agnelli", "J-Ax", "Francesco Totti", "Ilary Blasi", "Bebe Vio", "Luis", "Pardis Zarei", "Martina Maccherone", "Rachel Zeilic"};
 
 
         // * ottengo il nome dell'ospite
@@ -21,9 +21,9 @@ public class CheckGuest {
         
         // ! con "while"
         // int index = 0;
-        // while (index < guessList.length) {
-        //     guessList[index] = guessList[index].replaceAll(" " , "");
-        //     if (guestName.equalsIgnoreCase(guessList[index])) {
+        // while (index < guestsList.length) {
+        //     guestsList[index] = guestsList[index].replaceAll(" " , "");
+        //     if (guestName.equalsIgnoreCase(guestsList[index])) {
         //         isGuest = true;
         //     }
         //     index++;
@@ -31,10 +31,10 @@ public class CheckGuest {
 
 
         // ! con "for"
-        for(int i = 0; i < guessList.length; i++) {
-            guessList[i] = guessList[i].replaceAll(" " , "");
+        for(int i = 0; i < guestsList.length; i++) {
+            guestsList[i] = guestsList[i].replaceAll(" " , "");
   
-            if (guestName.equalsIgnoreCase(guessList[i])) {
+            if (guestName.equalsIgnoreCase(guestsList[i])) {
                 isGuest = true;
                 break;
             }
